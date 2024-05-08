@@ -69,7 +69,6 @@ public class FileUtils {
 
     if (openedFile == null) return;
 
-
     ZipFile zipFile = new ZipFile(openedFile);
 
     for (int i = 0; i < 25; i++) {
@@ -86,7 +85,6 @@ public class FileUtils {
     }
 
     zipFile.close();
-
 
   }
 
