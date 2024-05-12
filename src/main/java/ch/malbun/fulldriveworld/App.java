@@ -50,7 +50,6 @@ public class App extends Application {
   @Override
   public void start(Stage stage) throws IOException {
     tempDir = Files.createTempDirectory("temp");
-    System.out.println(tempDir);
 
     InputStream executable = App.class.getResourceAsStream("FullDrive.jar");
     File executableFile = new File(tempDir.toFile().getAbsolutePath() + "/FullDrive.jar");
