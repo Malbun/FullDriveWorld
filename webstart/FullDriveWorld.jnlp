@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jnlp spec="1.0+"
-      codebase="serverip/webstart/"
-      href="serverip/jnlp/FullDriveWorld.jnlp">
+      codebase="https://malbun.github.io/FullDriveWorld/webstart/"
+      href="https://malbun.github.io/FullDriveWorld/jnlp/FullDriveWorld.jnlp">
     <information>
         <title>FullDriveWorld</title>
         <vendor>Malbun</vendor>
-        <homepage href="serverip"/>
+        <homepage href="https://malbun.github.io/FullDriveWorld"/>
         <description>
             FullDriveWorld - Gleispläne einfach zeichnen
         </description>
