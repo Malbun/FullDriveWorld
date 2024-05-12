@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jnlp spec="1.0+"
       codebase="https://malbun.github.io/FullDriveWorld/webstart/"
-      href="https://malbun.github.io/FullDriveWorld/jnlp/FullDriveWorld.jnlp">
+      href="https://malbun.github.io/FullDriveWorld/webstart/FullDriveWorld.jnlp">
     <information>
         <title>FullDriveWorld</title>
         <vendor>Malbun</vendor>
