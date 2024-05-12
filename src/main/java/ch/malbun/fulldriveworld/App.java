@@ -31,7 +31,7 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
+import java.awt.Desktop;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -178,8 +178,6 @@ public class App extends Application {
       }
     }, 0, 30000);
 
-
-
     scene.addEventFilter(KeyEvent.KEY_PRESSED, keyEvent -> {
       if (keyEvent.getCode() == KeyCode.E){
         try {
@@ -191,12 +189,12 @@ public class App extends Application {
         imageGrid.update();
       } else if (keyEvent.getCode() == KeyCode.A) {
         if (imageGrid.getScaleX() == 1) return;
-        imageGrid.setScaleX(imageGrid.getScaleX() + 0.1);
-        imageGrid.setScaleY(imageGrid.getScaleY() + 0.1);
+        imageGrid.setScaleX(imageGrid.getScaleX() + 0.05);
+        imageGrid.setScaleY(imageGrid.getScaleY() + 0.05);
       } else if (keyEvent.getCode() == KeyCode.S) {
         if (imageGrid.getScaleX() <= 0.15) return;
-        imageGrid.setScaleX(imageGrid.getScaleX() - 0.1);
-        imageGrid.setScaleY(imageGrid.getScaleY() - 0.1);
+        imageGrid.setScaleX(imageGrid.getScaleX() - 0.05);
+        imageGrid.setScaleY(imageGrid.getScaleY() - 0.05);
       }
     });
 
