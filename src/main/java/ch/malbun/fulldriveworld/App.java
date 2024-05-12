@@ -31,11 +31,14 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
 import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Timer;
@@ -133,6 +136,20 @@ public class App extends Application {
       try {
         imageGrid.edit();
       } catch (IOException ex) {
+        throw new RuntimeException(ex);
+      }
+    });
+
+    Menu help = new Menu("Hilfe");
+    menuBar.getMenus().add(help);
+
+    MenuItem website = new MenuItem("Website");
+    help.getItems().add(website);
+    website.setOnAction(e -> {
+      Desktop desktop = Desktop.getDesktop();
+      try {
+        desktop.browse(new URI("https://malbun.github.io/FullDriveWorld"));
+      } catch (IOException | URISyntaxException ex) {
         throw new RuntimeException(ex);
       }
     });
