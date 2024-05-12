@@ -13,6 +13,9 @@ und in FullDriveWorld aktualisiert dargestellt. Beim Schliessen wird der Gleispl
 Wenn eine FullDriveWorld Ansicht gespeichert wird, wird automatisch alle 30 Sekunden
 die aktuelle Ansicht in diese Datei gespeichert.
 
+Es wird empfohlen FullDriveWorld als Webstart Anwendung zu installieren damit immer die neuste Version genutzt wird.
+[Hier](https://malbun.github.io/FullDriveWorld) finden Sie eine kurze Anleitung dazu.
+
 ## Hotkeys
 | Funktion                       | Taste |
 |--------------------------------|-------|
