@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+"
+      codebase="serverip/webstart/"
+      href="serverip/jnlp/FullDriveWorld.jnlp">
+    <information>
+        <title>FullDriveWorld</title>
+        <vendor>Malbun</vendor>
+        <homepage href="serverip"/>
+        <description>
+            FullDriveWorld - Gleispläne einfach zeichnen
+        </description>
+        <description kind="short">
+            FullDriveWorld
+        </description>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se href="http://java.sun.com/products/autodl/j2se" version="17.0.8+"/>
+        <jar href="FullDriveWorld.jar"/>
+    </resources>
+    <application-desc main-class="ch.malbun.fulldriveworld.Main"/>
+</jnlp>
