@@ -23,3 +23,5 @@ Es wird empfohlen FullDriveWorld als Webstart Anwendung zu installieren damit im
 | Zoom vergrössern               | A     |
 | Ansicht aktualisieren          | U     |
 | gewählten Gleisplan bearbeiten | E     |
+
+### Achtung: FullDrive funktioniert nur unter Windows!
